@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | sed 's!.*/!!' | sed 's!.po!!'
+find . -empty -printf "%f\n"
