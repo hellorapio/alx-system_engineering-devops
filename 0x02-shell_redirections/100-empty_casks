@@ -1,2 +1,2 @@
 #!/bin/bash
-find /root -empty | sed 's!.*/!!' | sed 's!.po!!'
+find . -empty | sed 's!.*/!!' | sed 's!.po!!'
